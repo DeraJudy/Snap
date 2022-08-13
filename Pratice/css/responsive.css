@@ -1,0 +1,497 @@
+@media only screen and (min-width: 200px) and (max-width: 350px){
+	/* Navbar Start Here */
+	nav{
+		z-index: 100;
+	}
+
+	.navandlink{
+		height: 100%;
+		line-height: 70px;
+		margin-right: 0;
+	}
+
+	nav .navand .navandlink{
+		display: block;
+		position: fixed;
+		top: 0;
+		right: -100%;
+		overflow-y: auto;
+		max-width: 250px;
+		width: 100%;
+		background: #fff;
+		padding: 20px;
+		line-height: 40px;
+		transition: all 0.5s ease;
+	}
+
+	#radio{
+		color: green; 
+		font-size: 13px; 
+		margin-right: 10px;
+	}
+
+	.lin .sub-menu{
+		position: absolute;
+		top: 50px;
+		right: 0;
+		/*background: white;*/
+		line-height: 30px;
+		border-radius: 9px;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+		display: none;
+	}
+
+	.buttons{
+		display: none;
+	}
+
+	.butnn a{
+		text-decoration: none;
+	}
+
+	.fro1{
+		font-weight: 400;
+		color: darkgrey;
+		text-align: center;
+		font-size: 1rem;
+		padding: 0 83px 0 15px;
+	}
+
+	.fro1:hover{
+		color: #000;
+	}
+
+	.fro2{
+		display: inline-block;
+	 	font-weight: 400;
+	  	color: #212529;
+	  	text-align: center;
+	  	background-color: transparent;
+	 	border: 1px solid darkgrey;
+	 	padding: 1rem 5rem;
+	  	font-size: .8rem;
+	  	line-height: 1.5;
+	  	border-radius: 1rem;
+	  	text-decoration: none;
+	}
+
+	.fro2 a{
+		color: darkgrey;
+	}
+
+	.fro2:hover{
+		border: 1px solid black;
+	}
+
+	.fro2 a:hover{
+		color: black;
+	}
+
+	nav .navand .navandlink .sidebar-logo{
+		width: 50px;
+		margin-left: 81%;
+	}
+
+	.navand .fa-bars,
+	.navand .butnn,
+	.navandlink .sidebar-logo .fa-close{
+		display: block;
+	}
+
+	.navand .fa-bars,
+	.navand .butnn,
+	.navandlink .sidebar-logo .fa-close{
+		color: #000;
+		font-size: 25px;
+		font-weight: 500
+	}
+
+	nav .navand .navandlink .lin{
+		display: block;
+		margin-top: 20px;
+	}
+
+	nav .navand .navandlink .lin li{
+		display: block;
+	}
+
+	.radio{
+		color: green; 
+		font-size: 13px; 
+		margin-right: 16px;
+	}
+
+	.navand .navandlink .lin .sub-menu{
+		display: none;
+		position: relative;
+		top: 0;
+		left: 0;
+		box-shadow: none;
+	}
+
+	.navand .navandlink .lin .sub-menu li{
+		border-bottom: none;
+	}
+
+	.navand .navandlink .lin li:hover .htmlcss-sub-menu,
+	.navand .navandlink .lin li:hover .js-sub-menu{
+		display: none;
+	}
+
+	nav .navand .navandlink .lin li .arrow{
+		line-height: 40px;
+	}
+
+	.navand .navandlink .lin li:hover .htmlcss-arrow,
+	.navand .navandlink .lin li:hover .js-arrow{
+		transform: rotate(0deg);
+	}
+
+	.navand .navandlink.show1 .lin .sub-menu.htmlCss-sub-menu{
+		display: block;
+	}
+
+	.navand .navandlink.show2 .lin .sub-menu.js-sub-menu{
+		display: block;
+	}
+
+	.navand .navandlink.show1 .lin li .htmlcss-arrow,
+	.navand .navandlink.show2 .lin li .js-arrow{
+		transform: rotate(180deg);
+	}
+	/* Navbar Styles ends here */
+}
+
+
+/* For others */
+@media only screen and (min-width: 200px) and (max-width: 399px){
+
+	.ball{
+		width: 100%;
+		position: relative;
+		display: flex;
+		height: 100vh;
+	}
+
+	.dance{
+		width: 100%;
+		margin-left: 0;
+		justify-content: space-between;
+	}
+
+	.dance2{
+		width: 100%;
+		height: 230px;
+		flex-direction: column;
+		z-index: 9;
+		position: absolute;
+		padding: 0;
+	}
+
+	.dance2 img{
+		display: none;
+	}
+
+	.dance2 .display{
+		display: block;
+		width: 82%;
+		height: 95%;
+		margin-left: 30px;
+	}
+
+	.dance1{
+		width: 100%;
+		height: 280px;
+		padding: 30px;
+		flex-direction: column;
+		margin-top: 205px;
+	}
+
+	.cheer{
+		width: 100%;;
+		margin-top: 0;
+	}
+
+	.text{
+		display: none;
+	}
+
+	.text1
+	{
+		display: none;
+	}
+
+	.text2{
+		font-size: 1.3rem;
+		letter-spacing: 3px;
+		display: block;
+		text-align: center;
+	}
+
+	.night{
+		max-width: 420px;
+		margin-top: 2px;
+		margin-left: 7%;
+		text-align: center;
+		font-size: 18px;
+		color: darkgrey;
+	}
+
+	.night1{
+		max-width: 200px;
+		margin-top: 5px;
+		margin-left: 15%;
+		line-height: 50px;
+	}
+
+	.imgBx{
+		width: 100%;
+		height: 80px;
+		margin-top: 3px;
+	}
+
+	.imgBx img{
+		width: 15%;
+		margin-left: 2%;
+	}
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px){
+
+	.ball{
+		width: 100%;
+		position: relative;
+		display: flex;
+		height: 100vh;
+	}
+
+	.dance{
+		width: 100%;
+		margin-left: 0;
+		justify-content: space-between;
+	}
+
+	.dance2{
+		width: 100%;
+		height: 230px;
+		/*background: green;*/
+		flex-direction: column;
+		z-index: 9;
+		position: absolute;
+		padding: 10px;
+	}
+
+	.dance2 img{
+		display: none;
+	}
+
+	.dance2 .display{
+		display: block;
+		width: 82%;
+		height: 95%;
+		margin-left: 45px;
+	}
+
+	.dance1{
+		width: 100%;
+		height: 280px;
+		padding: 30px;
+		flex-direction: column;
+		margin-top: 205px;
+	}
+
+	.cheer{
+		width: 100%;;
+		margin-top: 0;
+	}
+
+	.text{
+		display: none;
+	}
+
+	.text1
+	{
+		display: none;
+	}
+
+	.text2{
+		font-size: 2rem;
+		letter-spacing: 3px;
+		display: block;
+		text-align: center;
+	}
+
+	.night{
+		max-width: 420px;
+		margin-top: 4px;
+		margin-left: 7%;
+		text-align: center;
+		font-size: 18px;
+		color: darkgrey;
+	}
+
+	.night1{
+		max-width: 200px;
+		margin-top: 12px;
+		margin-left: 29%;
+		line-height: 50px;
+	}
+
+	.imgBx{
+		width: 100%;
+		height: 80px;
+		margin-top: 5px;
+	}
+
+	.imgBx img{
+		width: 15%;
+		margin-left: 5%;
+	}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+	.dance{
+		width: 100%;
+		position: relative;
+		display: flex;
+		height: 86vh;
+		top: 74px;
+	}
+
+	.dance1{
+		width: 50%;
+		height: inherit;
+		padding: 40px;
+		/*background: hotpink;*/
+	}
+
+	.cheer{
+		width: 100%;;
+		margin-top:50px;
+	}
+
+	.text{
+		max-width: 100px;
+		font-size: 1.5rem;
+		letter-spacing: 3px;
+	}
+
+	.text1
+	{
+		width: 100%;
+		font-size: 1.5rem;
+		letter-spacing: 3px;
+		line-height: 30px;
+	}	
+
+	.night{
+		max-width: 350px;
+		margin-top: 20px;
+		font-size: 18px;
+		color: darkgrey;
+	}
+
+	.imgBx{
+		width: 100%;
+		height: 80px;
+		/*background: white;*/
+		margin-top: 20px;
+	}
+
+	.imgBx img{
+		width: 20%;
+		margin: 2px;
+	}
+
+	.dance2{
+		width: 50%;
+		display: flex;
+		height: inherit;
+		/*background: green;*/
+	}
+
+	.dance2 img{
+		width: 89%;
+		height: 85%;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px){
+	nav .navand{
+		max-width: 100%;
+	}
+
+	.navandlink{
+		height: 100%;
+		line-height: 70px;
+		margin-right: 10%;
+		/*background: red;*/
+	}
+
+	.buttons a{
+		padding: 0 15px;
+		text-decoration: none;
+	}
+
+	.dance{
+		width: 100%;
+		position: relative;
+		display: flex;
+		height: 86vh;
+		top: 74px;
+	}
+
+	.dance1{
+		width: 50%;
+		height: inherit;
+		padding: 50px;
+	}
+
+	.cheer{
+		width: 100%;;
+		margin-top: 55px;
+	}
+
+	.text{
+		max-width: 100px;
+		font-size: 3rem;
+		letter-spacing: 3px;
+	}
+
+	.text1
+	{
+		font-size: 3rem;
+		letter-spacing: 3px;
+		line-height: 30px;
+	}	
+
+	.imgBx{
+		width: 100%;
+		height: 80px;
+		/*background: white;*/
+		margin-top: 20px;
+	}
+
+	.imgBx img{
+		width: 20%;
+		margin: 5px;
+	}
+
+	.dance2{
+		width: 50%;
+		display: flex;
+		height: inherit;
+		/*background: green;*/
+	}
+
+	.dance2 img{
+		width: 75%;
+		height: 85%;
+		margin-top: 36px;
+		margin-left: 50px;
+	}
+}
